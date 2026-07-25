@@ -135,6 +135,3 @@ body{background:#edf4f2;background-image:linear-gradient(rgba(16,45,53,.035) 1px
 .moreGrid h3 a:hover{background-size:100% 3px}.moreGrid h3 sup{font:9px monospace;vertical-align:top}
 .moreGrid article:has(.moreOverlayLink)>div::after{content:"OPEN ↗";position:absolute;right:15px;bottom:15px;padding:9px 12px;border-radius:999px;background:var(--deep);color:white;font:8px monospace;z-index:3;opacity:0;transform:translateY(8px);transition:.25s}
 .moreGrid article:has(.moreOverlayLink):hover>div::after{opacity:1;transform:none}
-
-/* Static-build reveal safety: content is visible without JavaScript. */
-body:not(.js-ready) .reveal{opacity:1!important;transform:none!important}
